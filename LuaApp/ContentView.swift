@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var engine = LuaEngine()
+    
     var body: some View {
-        Text("Hello, World!")
+        Text(engine.resultString)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .onAppear() {
+                engine.updateWithResult("a = 7 + 35", name: "a")
+            }
     }
 }
 
