@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92C9E55B2549F6BA00BCE593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E55A2549F6BA00BCE593 /* AppDelegate.swift */; };
+		92C9E55D2549F6BA00BCE593 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E55C2549F6BA00BCE593 /* ContentView.swift */; };
+		92C9E55F2549F6BA00BCE593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C9E55E2549F6BA00BCE593 /* Assets.xcassets */; };
+		92C9E5622549F6BA00BCE593 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C9E5612549F6BA00BCE593 /* Preview Assets.xcassets */; };
+		92C9E5652549F6BA00BCE593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C9E5632549F6BA00BCE593 /* Main.storyboard */; };
+		92C9E5712549F6BA00BCE593 /* LuaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E5702549F6BA00BCE593 /* LuaAppTests.swift */; };
+		92C9E57C2549F6BA00BCE593 /* LuaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E57B2549F6BA00BCE593 /* LuaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92C9E56D2549F6BA00BCE593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C9E54F2549F6BA00BCE593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C9E5562549F6BA00BCE593;
+			remoteInfo = LuaApp;
+		};
+		92C9E5782549F6BA00BCE593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C9E54F2549F6BA00BCE593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C9E5562549F6BA00BCE593;
+			remoteInfo = LuaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92C9E5572549F6BA00BCE593 /* LuaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C9E55A2549F6BA00BCE593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92C9E55C2549F6BA00BCE593 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92C9E55E2549F6BA00BCE593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92C9E5612549F6BA00BCE593 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92C9E5642549F6BA00BCE593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92C9E5662549F6BA00BCE593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C9E5672549F6BA00BCE593 /* LuaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LuaApp.entitlements; sourceTree = "<group>"; };
+		92C9E56C2549F6BA00BCE593 /* LuaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C9E5702549F6BA00BCE593 /* LuaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuaAppTests.swift; sourceTree = "<group>"; };
+		92C9E5722549F6BA00BCE593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C9E5772549F6BA00BCE593 /* LuaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C9E57B2549F6BA00BCE593 /* LuaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuaAppUITests.swift; sourceTree = "<group>"; };
+		92C9E57D2549F6BA00BCE593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C9E5542549F6BA00BCE593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C9E5692549F6BA00BCE593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C9E5742549F6BA00BCE593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C9E54E2549F6BA00BCE593 = {
+			isa = PBXGroup;
+			children = (
+				92C9E5592549F6BA00BCE593 /* LuaApp */,
+				92C9E56F2549F6BA00BCE593 /* LuaAppTests */,
+				92C9E57A2549F6BA00BCE593 /* LuaAppUITests */,
+				92C9E5582549F6BA00BCE593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C9E5582549F6BA00BCE593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C9E5572549F6BA00BCE593 /* LuaApp.app */,
+				92C9E56C2549F6BA00BCE593 /* LuaAppTests.xctest */,
+				92C9E5772549F6BA00BCE593 /* LuaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C9E5592549F6BA00BCE593 /* LuaApp */ = {
+			isa = PBXGroup;
+			children = (
+				92C9E55A2549F6BA00BCE593 /* AppDelegate.swift */,
+				92C9E55C2549F6BA00BCE593 /* ContentView.swift */,
+				92C9E55E2549F6BA00BCE593 /* Assets.xcassets */,
+				92C9E5632549F6BA00BCE593 /* Main.storyboard */,
+				92C9E5662549F6BA00BCE593 /* Info.plist */,
+				92C9E5672549F6BA00BCE593 /* LuaApp.entitlements */,
+				92C9E5602549F6BA00BCE593 /* Preview Content */,
+			);
+			path = LuaApp;
+			sourceTree = "<group>";
+		};
+		92C9E5602549F6BA00BCE593 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92C9E5612549F6BA00BCE593 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92C9E56F2549F6BA00BCE593 /* LuaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				92C9E5702549F6BA00BCE593 /* LuaAppTests.swift */,
+				92C9E5722549F6BA00BCE593 /* Info.plist */,
+			);
+			path = LuaAppTests;
+			sourceTree = "<group>";
+		};
+		92C9E57A2549F6BA00BCE593 /* LuaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92C9E57B2549F6BA00BCE593 /* LuaAppUITests.swift */,
+				92C9E57D2549F6BA00BCE593 /* Info.plist */,
+			);
+			path = LuaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C9E5562549F6BA00BCE593 /* LuaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C9E5802549F6BA00BCE593 /* Build configuration list for PBXNativeTarget "LuaApp" */;
+			buildPhases = (
+				92C9E5532549F6BA00BCE593 /* Sources */,
+				92C9E5542549F6BA00BCE593 /* Frameworks */,
+				92C9E5552549F6BA00BCE593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaApp;
+			productName = LuaApp;
+			productReference = 92C9E5572549F6BA00BCE593 /* LuaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92C9E56B2549F6BA00BCE593 /* LuaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C9E5832549F6BA00BCE593 /* Build configuration list for PBXNativeTarget "LuaAppTests" */;
+			buildPhases = (
+				92C9E5682549F6BA00BCE593 /* Sources */,
+				92C9E5692549F6BA00BCE593 /* Frameworks */,
+				92C9E56A2549F6BA00BCE593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C9E56E2549F6BA00BCE593 /* PBXTargetDependency */,
+			);
+			name = LuaAppTests;
+			productName = LuaAppTests;
+			productReference = 92C9E56C2549F6BA00BCE593 /* LuaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92C9E5762549F6BA00BCE593 /* LuaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C9E5862549F6BA00BCE593 /* Build configuration list for PBXNativeTarget "LuaAppUITests" */;
+			buildPhases = (
+				92C9E5732549F6BA00BCE593 /* Sources */,
+				92C9E5742549F6BA00BCE593 /* Frameworks */,
+				92C9E5752549F6BA00BCE593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C9E5792549F6BA00BCE593 /* PBXTargetDependency */,
+			);
+			name = LuaAppUITests;
+			productName = LuaAppUITests;
+			productReference = 92C9E5772549F6BA00BCE593 /* LuaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C9E54F2549F6BA00BCE593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					92C9E5562549F6BA00BCE593 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					92C9E56B2549F6BA00BCE593 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 92C9E5562549F6BA00BCE593;
+					};
+					92C9E5762549F6BA00BCE593 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 92C9E5562549F6BA00BCE593;
+					};
+				};
+			};
+			buildConfigurationList = 92C9E5522549F6BA00BCE593 /* Build configuration list for PBXProject "LuaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C9E54E2549F6BA00BCE593;
+			productRefGroup = 92C9E5582549F6BA00BCE593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C9E5562549F6BA00BCE593 /* LuaApp */,
+				92C9E56B2549F6BA00BCE593 /* LuaAppTests */,
+				92C9E5762549F6BA00BCE593 /* LuaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C9E5552549F6BA00BCE593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C9E5652549F6BA00BCE593 /* Main.storyboard in Resources */,
+				92C9E5622549F6BA00BCE593 /* Preview Assets.xcassets in Resources */,
+				92C9E55F2549F6BA00BCE593 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C9E56A2549F6BA00BCE593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C9E5752549F6BA00BCE593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C9E5532549F6BA00BCE593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C9E55D2549F6BA00BCE593 /* ContentView.swift in Sources */,
+				92C9E55B2549F6BA00BCE593 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C9E5682549F6BA00BCE593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C9E5712549F6BA00BCE593 /* LuaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C9E5732549F6BA00BCE593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C9E57C2549F6BA00BCE593 /* LuaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92C9E56E2549F6BA00BCE593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C9E5562549F6BA00BCE593 /* LuaApp */;
+			targetProxy = 92C9E56D2549F6BA00BCE593 /* PBXContainerItemProxy */;
+		};
+		92C9E5792549F6BA00BCE593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C9E5562549F6BA00BCE593 /* LuaApp */;
+			targetProxy = 92C9E5782549F6BA00BCE593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92C9E5632549F6BA00BCE593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C9E5642549F6BA00BCE593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C9E57E2549F6BA00BCE593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92C9E57F2549F6BA00BCE593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		92C9E5812549F6BA00BCE593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LuaApp/LuaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LuaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A24X873BZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LuaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Cuehf.LuaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		92C9E5822549F6BA00BCE593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LuaApp/LuaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LuaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A24X873BZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LuaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Cuehf.LuaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		92C9E5842549F6BA00BCE593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4A24X873BZ;
+				INFOPLIST_FILE = LuaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Cuehf.LuaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuaApp.app/Contents/MacOS/LuaApp";
+			};
+			name = Debug;
+		};
+		92C9E5852549F6BA00BCE593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4A24X873BZ;
+				INFOPLIST_FILE = LuaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Cuehf.LuaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuaApp.app/Contents/MacOS/LuaApp";
+			};
+			name = Release;
+		};
+		92C9E5872549F6BA00BCE593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4A24X873BZ;
+				INFOPLIST_FILE = LuaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cuehf.LuaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LuaApp;
+			};
+			name = Debug;
+		};
+		92C9E5882549F6BA00BCE593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4A24X873BZ;
+				INFOPLIST_FILE = LuaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cuehf.LuaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LuaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C9E5522549F6BA00BCE593 /* Build configuration list for PBXProject "LuaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C9E57E2549F6BA00BCE593 /* Debug */,
+				92C9E57F2549F6BA00BCE593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C9E5802549F6BA00BCE593 /* Build configuration list for PBXNativeTarget "LuaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C9E5812549F6BA00BCE593 /* Debug */,
+				92C9E5822549F6BA00BCE593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C9E5832549F6BA00BCE593 /* Build configuration list for PBXNativeTarget "LuaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C9E5842549F6BA00BCE593 /* Debug */,
+				92C9E5852549F6BA00BCE593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C9E5862549F6BA00BCE593 /* Build configuration list for PBXNativeTarget "LuaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C9E5872549F6BA00BCE593 /* Debug */,
+				92C9E5882549F6BA00BCE593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C9E54F2549F6BA00BCE593 /* Project object */;
+}
