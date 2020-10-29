@@ -48,6 +48,9 @@
 		92C9E61D254A01C100BCE593 /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E615254A01C100BCE593 /* lbaselib.c */; };
 		92C9E620254A01C100BCE593 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E61C254A01C100BCE593 /* lauxlib.c */; };
 		92C9E63E254A065F00BCE593 /* lua.c in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E63C254A065E00BCE593 /* lua.c */; };
+		92C9E66A254A3EE100BCE593 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E669254A3EE100BCE593 /* Utilities.swift */; };
+		92C9E66B254A3EE100BCE593 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E669254A3EE100BCE593 /* Utilities.swift */; };
+		92C9E66C254A3EE100BCE593 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9E669254A3EE100BCE593 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +149,7 @@
 		92C9E63D254A065E00BCE593 /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
 		92C9E645254A07D800BCE593 /* LuaAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuaAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		92C9E646254A07D800BCE593 /* LuaAppUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuaAppUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		92C9E669254A3EE100BCE593 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +203,7 @@
 				92C9E55A2549F6BA00BCE593 /* AppDelegate.swift */,
 				92C9E55C2549F6BA00BCE593 /* ContentView.swift */,
 				92C9E58C2549F73D00BCE593 /* LuaEngine.swift */,
+				92C9E669254A3EE100BCE593 /* Utilities.swift */,
 				92C9E5912549FCA400BCE593 /* Lua */,
 				92C9E55E2549F6BA00BCE593 /* Assets.xcassets */,
 				92C9E5632549F6BA00BCE593 /* Main.storyboard */,
@@ -454,6 +459,7 @@
 				92C9E5D42549FD3200BCE593 /* lstate.c in Sources */,
 				92C9E5EB2549FD3200BCE593 /* lmathlib.c in Sources */,
 				92C9E5E02549FD3200BCE593 /* lgc.c in Sources */,
+				92C9E66A254A3EE100BCE593 /* Utilities.swift in Sources */,
 				92C9E5DF2549FD3200BCE593 /* ldump.c in Sources */,
 				92C9E5F22549FD3200BCE593 /* ldebug.c in Sources */,
 				92C9E58D2549F73D00BCE593 /* LuaEngine.swift in Sources */,
@@ -481,6 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C9E66B254A3EE100BCE593 /* Utilities.swift in Sources */,
 				92C9E5712549F6BA00BCE593 /* LuaAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C9E66C254A3EE100BCE593 /* Utilities.swift in Sources */,
 				92C9E57C2549F6BA00BCE593 /* LuaAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
